@@ -187,7 +187,7 @@ body{
     left: 0;
     width: 0;
     height: 0;
-    border-radius: 8px;
+    border-radius: 8px ;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     opacity: 0;
@@ -199,7 +199,7 @@ body{
     top: -50px;
     left: 50px;
     width: 100px;
-    height: 100px;
+    height: 15px;
     opacity: 1;
   }
   .container .box span::after{
@@ -222,7 +222,7 @@ body{
     bottom: -50px;
     right: 50px;
     width: 100px;
-    height: 100px;
+    height: 15px;
     opacity: 1;
   }
   @keyframes animate{
@@ -265,7 +265,8 @@ body{
     display: inline-block;
     font-size: 1.1em;
     color: #111;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50%);
     padding: 10px;
     border-radius: 4px;
     text-decoration: none;
@@ -275,6 +276,8 @@ body{
   .box .content a:hover{
     color: white;
     background: #000000;
-    border: 1px solid rgba(255, 0, 88, 0.4);
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
   }
+.link_card{
+  outline: none;
+}
