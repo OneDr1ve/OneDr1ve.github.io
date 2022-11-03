@@ -275,7 +275,7 @@ body{
   }
   .box .content a:hover{
     color: white;
-    background: #000000;
+    background: rgba(0,0,0,.65);
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
   }
 .link_card{
